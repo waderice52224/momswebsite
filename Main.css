@@ -1,0 +1,26 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+
+}
+.baselayer{
+    background-color:#CCCCCC;
+
+}
+.nav{
+    display: flex;
+    justify-content:space-between;
+    background-color:#dd0000;
+}
+.toplogo img{
+    width: 100%;
+
+}
+.home{
+:
+}
+a:hover{
+    this is a suddo selector
+}
