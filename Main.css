@@ -1,26 +1,173 @@
+@font-face {
+    font-family: trench;
+    src: url('fonts/trench100free.otf');
+}
+
 body,html{
     padding: 0;
     margin: 0;
     width: 100%;
     height: auto;
+    background-image: url(soundsquares.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 
 }
 .baselayer{
-    background-color:#CCCCCC;
+
 
 }
 .nav{
     display: flex;
     justify-content:space-between;
-    background-color:#dd0000;
-}
-.toplogo img{
-    width: 100%;
+    background-color:#ffffff;
+    height: 100px;
+    border-bottom: 1px solid #000000;
+    align-items: center;
 
 }
-.home{
-:
+.nav-link{
+    width: 196px;
+    text-align: center;
+    font-family: trench;
+    font-size: 2em;
+
 }
-a:hover{
-    this is a suddo selector
+.nav-link a {
+    text-decoration: none;
+    color: black;
+}
+
+.maintxt  {
+    font-family: trench;
+    font-size: 2em;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+
+
+}
+#maintxtbig{
+    font-family: trench;
+    font-size: 2em;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+
+}
+.childsname{
+    font-family: trench;
+    font-size: 2em;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+
+}
+.signup{
+
+}
+.button{
+    display: block;
+    padding: 7px 15px;
+    background-color: #EEEEEE;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10px;
+    width: 300px;
+    height: auto;
+    font-family: trench;
+    font-size: large;
+    margin: 50px auto;
+}
+.parmiddsub{
+
+
+    width: 100%;
+}
+.middsub {
+    height: 300px;
+    width: 500px;
+    margin: 300px auto;
+    font-family:trench;
+    font-size: 40px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 45px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 45px -8px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 45px -8px rgba(0,0,0,0.75);
+    text-align: center;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+#ChildsName{
+    margin-top: 30px;
+    height: 50px;
+    width: 300px;
+    font-size: larger;
+}
+
+#Childsbirthday {
+    margin-top: 30px;
+    height: 50px;
+    width: 300px;
+    font-size: large;
+}
+#ParentsName {
+    margin-top: 30px;
+    height: 50px;
+    width: 300px;
+    font-size: larger;
+}
+.ParentsCell p {
+    font-size: large;
+}
+#ParentsCell{
+    margin-top: 30px;
+    height: 50px;
+    width: 300px;
+    font-size: larger;
+}
+#Email{
+    margin-top: 30px;
+    height: 50px;
+    width: 300px;
+    font-size: larger;
+}
+.sendme{
+    font-size: large;
+}
+.specbutton {
+    display: block;
+    padding: 7px 15px;
+    background-color: #EEEEEE;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10px;
+    width: 300px;
+    height: auto;
+    font-family: trench;
+    font-size: large;
+    margin: 15px auto;
+}
+.specmiddsub{
+    height: 300px;
+    width: 500px;
+    margin: 300px auto;
+    font-family:trench;
+
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 45px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 45px -8px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 45px -8px rgba(0,0,0,0.75);
+    text-align: center;
+    justify-content: center;
+    align-items: flex-end;
 }
