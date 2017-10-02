@@ -157,17 +157,21 @@ body,html{
     font-size: large;
     margin: 15px auto;
 }
-.specmiddsub{
+.specmiddsub {
     height: 300px;
     width: 500px;
     margin: 300px auto;
-    font-family:trench;
+    font-family: trench;
 
     background-color: #ffffff;
-    -webkit-box-shadow: 0px 0px 45px -8px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 45px -8px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 45px -8px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 45px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 45px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 45px -8px rgba(0, 0, 0, 0.75);
     text-align: center;
     justify-content: center;
     align-items: flex-end;
 }
+.carousel-control {
+    height: 300px;
+}
+
