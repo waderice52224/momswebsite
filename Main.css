@@ -7,13 +7,15 @@ body,html{
     margin: 0;
     width: 100%;
     height: auto;
-    background-image: url(soundsquares.jpg);
+    /*background-image: url(soundsquares.jpg);*/
+    background-color: #ad9a9a;
     background-repeat: no-repeat;
     background-size: 100%;
 
+
 }
 .baselayer{
-
+    background-color: #ad9a9a;
 
 }
 .nav{
@@ -23,44 +25,44 @@ body,html{
     height: 100px;
     border-bottom: 1px solid #000000;
     align-items: center;
-
+    color: #073863;
 }
 .nav-link{
     width: 196px;
     text-align: center;
-    font-family: trench;
+    font-family: "Alfa Slab One";
     font-size: 2em;
-
+    color: #073863;
 }
 .nav-link a {
     text-decoration: none;
-    color: black;
+    color: #073863;
 }
 
 .maintxt  {
-    font-family: trench;
+    font-family: "Alfa Slab One";
     font-size: 2em;
     margin: auto;
     z-index: +2;
-    width: 50%;
+    width: 70%;
     padding: 10px;
-    border: 1px solid #000000;
-    background-color: #ffffff;
+    background-color: white;
 
+    color: #073863;
 
 }
 #maintxtbig{
-    font-family: trench;
+    font-family: "Alfa Slab One";
     font-size: 2em;
     margin: auto;
-    width: 50%;
+    width: 70%;
     padding: 10px;
     border: 1px solid #000000;
     background-color: #ffffff;
 
 }
 .childsname{
-    font-family: trench;
+    font-family: "Alfa Slab One";
     font-size: 2em;
     margin: auto;
     width: 50%;
@@ -82,7 +84,7 @@ body,html{
     margin-top: 10px;
     width: 300px;
     height: auto;
-    font-family: trench;
+    font-family: "Alfa Slab One";
     font-size: large;
     margin: 50px auto;
 }
@@ -95,7 +97,7 @@ body,html{
     height: 300px;
     width: 500px;
     margin: 300px auto;
-    font-family:trench;
+    font-family: "Alfa Slab One";
     font-size: 40px;
     background-color: #ffffff;
     -webkit-box-shadow: 0px 0px 45px -8px rgba(0,0,0,0.75);
@@ -153,7 +155,7 @@ body,html{
     margin-top: 10px;
     width: 300px;
     height: auto;
-    font-family: trench;
+    font-family: "Alfa Slab One";
     font-size: large;
     margin: 15px auto;
 }
@@ -161,7 +163,7 @@ body,html{
     height: 300px;
     width: 500px;
     margin: 300px auto;
-    font-family: trench;
+    font-family: "Alfa Slab One";
 
     background-color: #ffffff;
     -webkit-box-shadow: 0px 0px 45px -8px rgba(0, 0, 0, 0.75);
