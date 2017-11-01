@@ -89,7 +89,7 @@ body,html{
     margin: 50px auto;
 }
 .parmiddsub{
-
+    background-color: #ad9a9a;
 
     width: 100%;
 }
@@ -157,7 +157,7 @@ body,html{
     height: auto;
     font-family: "Alfa Slab One";
     font-size: large;
-    margin: 15px auto;
+    margin: 15px auto 15px auto;
 }
 .specmiddsub {
     height: 300px;
@@ -184,5 +184,16 @@ body,html{
     justify-content: center;
     margin: 15px 0 15px 0;
 }
+.middsub{
+    padding: 10px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+}
 
 
+
+#map {
+    height: 400px;
+    width: 100%;
+}
